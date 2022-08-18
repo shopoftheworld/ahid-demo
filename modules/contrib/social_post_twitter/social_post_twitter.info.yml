@@ -1,0 +1,13 @@
+name: Social Post Twitter
+type: module
+description: Social Post integration for Twitter
+core_version_requirement: ^8.8 || ^9
+package: Social
+configure: social_post_twitter.settings_form
+dependencies:
+  - social_post:social_post
+
+# Information added by Drupal.org packaging script on 2022-06-14
+version: '3.0.0-beta3'
+project: 'social_post_twitter'
+datestamp: 1655219959
